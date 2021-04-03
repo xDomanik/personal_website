@@ -1,0 +1,41 @@
+
+$nav-text: white;
+
+.color {
+  background-color: #6b6b6b;
+  color: $nav-text;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+
+}
+
+.spacer{
+  flex: 1 1 auto;
+
+}
+
+.logo{
+  font-size: 1em; 
+  color: $nav-text; 
+  padding-left: 6em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover 
+{
+   background: none;
+   color:#00A0C6; 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+.no-hover-effect.mat-button ,
+.no-hover-effect.mat-button.mat-accent .mat-button-focus-overlay,
+.no-hover-effect.mat-button.mat-warn .mat-button-focus-overlay
+{
+  background-color: transparent;
+}
